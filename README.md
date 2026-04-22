@@ -434,7 +434,7 @@ Current tutorials include:
 
 - `tutorial_1_concept_analysis.ipynb`
 
-More tutorials covering additional analyses and workflows will be added in future updates. The tutorial directory is designed to be extensible and will continue to expand as the library develops.
+More tutorials covering additional analyses and workflows will be added in future updates.
 
 ---
 
