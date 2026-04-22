@@ -12,7 +12,7 @@ scConcept enables **concept-level interpretation of single-cell transcriptomic d
 
 ### Schematic overview of scConcept
 
-![](FLOW.jpg)
+![](Flow.jpg)
 
 **(A) Topic extraction from single-cell data.**  
 A neural topic model is applied to scRNA-seq data to learn topic–gene distributions. For each topic, the top 100 genes with the highest weights are selected to characterize its underlying biological signal.
