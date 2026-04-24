@@ -430,9 +430,37 @@ Detailed step-by-step tutorials are provided in:
 scConcept/Tutorial/
 ```
 
-Current tutorials include:
+Before running the tutorials, you need to extract topic gene lists from your dataset. This can be done either by running the ECRTM pipeline:
 
-- `tutorial_1_concept_analysis.ipynb`
+``` bash
+python ECRTM/run.py
+```
+
+or by using the high-level API:
+
+``` python
+scConcept.annotation(...)
+```
+
+### Available tutorials
+
+-   `tutorial_1_concept_analysis.ipynb`: concept-level annotation of
+    single-cell topics
+-   `tutorial_2_potency_prediction_and_perturbation.ipynb`:
+    developmental potency prediction and concept-guided perturbation
+    analysis
+-   `tutorial_3_hierarchical_refinement.ipynb`: hierarchical refinement
+    of broad concepts into more specific sub-concepts
+
+Together, these tutorials form a complete workflow, guiding users from
+topic extraction to concept annotation, hierarchical refinement, and
+downstream analyses such as developmental potency prediction and
+perturbation.
+
+Compared with the simplified APIs (e.g., `scConcept.annotation`), these
+tutorials provide a more detailed and transparent view of the full
+pipeline, and are intended for users who want to better understand the
+underlying methodology and execution process.
 
 More tutorials covering additional analyses and workflows will be added in future updates.
 
