@@ -39,7 +39,7 @@ without any local installation.
 - Supports **custom data upload**
 - Covers the **full pipeline**: topic → concept → annotation
 
-You can run the full pipeline in minutes using the default dataset,
+You can run the full pipeline using the default dataset,
 or switch to your own data by setting `USE_DEMO_DATA = False`.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
