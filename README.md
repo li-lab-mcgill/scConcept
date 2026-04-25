@@ -30,6 +30,24 @@ Concept-level representations enable:
 
 ---
 
+## 🚀 Run scConcept in Google Colab
+
+We provide a ready-to-use Google Colab notebook that allows you to run scConcept
+without any local installation.
+
+- Includes a **preprocessed demo dataset (`pollen.mat`)**
+- Supports **custom data upload**
+- Covers the **full pipeline**: topic → concept → annotation
+
+You can run the full pipeline in minutes using the default dataset,
+or switch to your own data by setting `USE_DEMO_DATA = False`.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/li-lab-mcgill/scConcept/blob/main/Tutorial/tutorial_0_colab_quickstart.ipynb
+)
+
+---
+
 ## 🔧 Installation
 
 > **Note**: The full installation process, including environment setup and dependency installation, typically takes **1–1.5 hours**.
