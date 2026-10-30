@@ -482,8 +482,7 @@ scConcept.annotation(...)
     try different local open-weight models with Ollama, generate concepts from
     saved topic gene lists, and explore cell annotation and downstream analysis.
     Includes model setup and download instructions, server connection/startup,
-    model selection, and saved responses. Exploratory mode records gene-validation
-    issues without blocking usable output; model output quality is not guaranteed.
+    model selection, and saved responses.
 
 Together, these tutorials form a complete workflow, guiding users from
 topic extraction to concept annotation, hierarchical refinement, and
@@ -529,10 +528,7 @@ training pipelines and checkpoints are not included.
 
 - **Recompute downstream results from fixed inputs.** Use the deposited concept
   sets, processed datasets, and notebook settings to compare per-dataset metrics
-  with the corresponding manuscript results. Check input checksums and software
-  versions first if results differ. Embedding coordinates, plot layouts, and
-  stochastic perturbation/classifier results may vary with the environment and
-  random splits; identical plots are not required for agreement in the main metrics.
+  with the corresponding manuscript results.
 - **Regenerate concepts with an LLM.** Exact concept names and gene sets need not
   match, even with generation seed 1. The five-run experiments on Zeisel and
   Pollen show variation in concept membership while downstream metrics remain
