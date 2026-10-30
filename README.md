@@ -28,6 +28,13 @@ Concept-level representations enable:
 - developmental potential prediction
 - hierarchical concept refinement
 
+
+### Research poster
+
+A visual summary of scConcept's workflow and key results. Click the poster to view it at full resolution.
+
+[![scConcept research poster summarizing the workflow, benchmark results, and downstream analyses](poster.jpg)](poster.jpg)
+
 ---
 
 ## 🚀 Run scConcept in Google Colab
