@@ -1,0 +1,136 @@
+[
+  {
+    "name": "Toti.",
+    "genes": [],
+    "source_topics": []
+  },
+  {
+    "name": "Pluri.",
+    "genes": [
+      "POU5F1",
+      "NANOG",
+      "SOX2",
+      "OTX2",
+      "OTX1",
+      "RAX",
+      "HESX1",
+      "FOXD4",
+      "DKK1",
+      "ERAS",
+      "ZIC3",
+      "SP8",
+      "CDH1",
+      "EPCAM",
+      "FEZF1",
+      "LHX5",
+      "PAX6"
+    ],
+    "source_topics": [
+      "topic_45",
+      "topic_38",
+      "topic_10",
+      "topic_8"
+    ]
+  },
+  {
+    "name": "Multi.",
+    "genes": [
+      "WNT1",
+      "PAX8",
+      "PAX3",
+      "SOX9",
+      "AXIN2",
+      "SP5",
+      "EPCAM",
+      "BCAM",
+      "SLC2A3",
+      "SLC2A1",
+      "KPNA2",
+      "AURKA",
+      "UBE2C",
+      "PLK1",
+      "CCNB1",
+      "KIF23",
+      "KIF18B",
+      "KIF20B",
+      "CKAP2L",
+      "CENPL",
+      "CENPF",
+      "SAPCD2",
+      "MIIP",
+      "ROR1"
+    ],
+    "source_topics": [
+      "topic_21",
+      "topic_22",
+      "topic_49"
+    ]
+  },
+  {
+    "name": "Oligo.",
+    "genes": [
+      "DLL1",
+      "SOX21",
+      "PAX6",
+      "EPHA7",
+      "FGF3",
+      "ZBTB16",
+      "ADGRG1",
+      "LPAR1",
+      "EFNB3",
+      "JAG1",
+      "HES5",
+      "RFX4",
+      "ILDR2",
+      "REEP1",
+      "REEP2",
+      "DPYSL5",
+      "FZD10",
+      "GBX2",
+      "MSX1"
+    ],
+    "source_topics": [
+      "topic_17"
+    ]
+  },
+  {
+    "name": "Uni.",
+    "genes": [
+      "TH",
+      "SCGN",
+      "CALCRL",
+      "PIEZO2",
+      "PCDH7",
+      "GNAO1",
+      "PRNP",
+      "ADCY4",
+      "MLC1",
+      "GRIK3"
+    ],
+    "source_topics": [
+      "topic_13"
+    ]
+  },
+  {
+    "name": "Diff.",
+    "genes": [
+      "SNCA",
+      "CPLX1",
+      "DPP6",
+      "RGS7",
+      "SCAMP5",
+      "SLC6A1",
+      "SLC18A2",
+      "C1QL1",
+      "SLC1A2",
+      "DLG4",
+      "SLC17A6",
+      "TSPOAP1",
+      "GLIPR2"
+    ],
+    "source_topics": [
+      "topic_40",
+      "topic_33"
+    ]
+  }
+]

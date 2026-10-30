@@ -1,0 +1,21 @@
+{
+  "mat.zeisel": "zeisel.mat",
+  "mat.Lung_30k": "Lung_10k.mat",
+  "melanoma.metadata": "cell_metadata_with_all_patient_labels.csv",
+  "melanoma.tcga_expression": "data_mrna_seq_v2_rsem.txt",
+  "melanoma.tcga_order": "skcm_tcga_HIGHPRE_10000.csv",
+  "melanoma.tcga_status": "skcm_tcga_cell_anno.csv",
+  "melanoma.tcga_months": "skcm_tcga_cell_months.csv",
+  "hierarchy.pancreas_annotations": "Pancreas.h5ad",
+  "hierarchy.lung_annotations": "Lung.h5ad",
+  "potency.labels": "potency/labels",
+  "potency.plotting": "potency/plotting",
+  "transfer.inputs": "transfer",
+  "lung.atlas": "Salcher_6k2_hvg.h5ad",
+  "lung.tcga": "TCGA_lung.h5ad",
+  "lung.scissor_labels": "Scissor_all_cells_labels.tsv",
+  "mat.Mouse_embryo_2_Smart_seq2_cytotrace2": "Mouse_embryo_2_Smart_seq2_cytotrace2.mat",
+  "mat.Mouse_mature_neural_cell_types_10x_cytotrace2": "Mouse_mature_neural_cell_types_10x_cytotrace2.mat",
+  "mat.Neural_crest_Smart_seq2_cytotrace2": "Neural_crest_Smart_seq2_cytotrace2.mat",
+  "mat.HSCs_and_MPPs_inDrop_cytotrace2": "HSCs_and_MPPs_inDrop_cytotrace2.mat"
+}

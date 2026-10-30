@@ -1,0 +1,24 @@
+# Generated analyses and topic-training output
+/Results/
+/ECRTM/output/
+/Tutorial2/outputs/
+/Tutorial2/backups/
+/Tutorial2/round2_materials_review_*/
+# Large datasets are distributed separately; keep documentation in Git.
+/Datasets/*
+!/Datasets/README.md
+# Local configuration, credentials, and editor/tool state
+/Tutorial2/Inputs/data_paths.local.json
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+.vscode/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+*.log
+*.pid

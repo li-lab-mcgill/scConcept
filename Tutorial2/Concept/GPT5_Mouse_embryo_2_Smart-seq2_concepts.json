@@ -1,0 +1,155 @@
+[
+  {
+    "name": "Toti.",
+    "genes": [
+      "RFPL4",
+      "WEE2",
+      "KHDC1B",
+      "TCL1B1",
+      "TCL1B2",
+      "TCL1B3",
+      "TCL1",
+      "OBOX1",
+      "OOG1",
+      "OOSP1",
+      "PRAMEF17",
+      "PRAMEL1",
+      "PRAMEF20",
+      "PRR23A1",
+      "ZSCAN4B",
+      "NPM2",
+      "TEX19.1",
+      "FTHL17E"
+    ],
+    "source_topics": [
+      "topic_33",
+      "topic_34",
+      "topic_39",
+      "topic_19",
+      "topic_1",
+      "topic_3"
+    ]
+  },
+  {
+    "name": "Pluri.",
+    "genes": [
+      "NANOG",
+      "PRDM14",
+      "TFCP2L1",
+      "PRAMEL5",
+      "PRAMEL6",
+      "XIST",
+      "JARID2",
+      "ID3",
+      "CLDN4",
+      "TSPAN1",
+      "SFRP1",
+      "GJA1",
+      "REEP1",
+      "HSPA8",
+      "TDGF1",
+      "EPAS1",
+      "ACTN4",
+      "KLF8"
+    ],
+    "source_topics": [
+      "topic_21",
+      "topic_2",
+      "topic_9",
+      "topic_23",
+      "topic_46"
+    ]
+  },
+  {
+    "name": "Multi.",
+    "genes": [
+      "NES",
+      "LEF1",
+      "JAG1",
+      "FZD7",
+      "CREBBP",
+      "HES1",
+      "HES6",
+      "WNT5A",
+      "CCND1",
+      "SHH",
+      "PROX1",
+      "DLL1",
+      "FN1",
+      "TNIK",
+      "NTRK2",
+      "SOCS1",
+      "JAK2",
+      "GLIS2",
+      "BMP6",
+      "GRIP1"
+    ],
+    "source_topics": [
+      "topic_36",
+      "topic_10",
+      "topic_12",
+      "topic_17"
+    ]
+  },
+  {
+    "name": "Oligo.",
+    "genes": [
+      "KRT13",
+      "MUC4",
+      "ITGA5",
+      "COL7A1",
+      "SPINK4",
+      "THRB",
+      "SDK1",
+      "SLC4A3",
+      "CLDN7",
+      "AGR3",
+      "CEACAM14",
+      "TSPAN13",
+      "CLDN15",
+      "SOX4"
+    ],
+    "source_topics": [
+      "topic_7",
+      "topic_5"
+    ]
+  },
+  {
+    "name": "Uni.",
+    "genes": [],
+    "source_topics": []
+  },
+  {
+    "name": "Diff.",
+    "genes": [
+      "MUC1",
+      "TACSTD2",
+      "LGALS4",
+      "DPEP1",
+      "GPX4",
+      "FLT1",
+      "PRNP",
+      "GJA4",
+      "CALD1",
+      "RND1",
+      "PDLIM2",
+      "KRT18",
+      "SLC17A7",
+      "CRMP1",
+      "CNTNAP2",
+      "PLA2G7",
+      "PODXL",
+      "THSD7A",
+      "ST6GAL1",
+      "COL8A2",
+      "EPHB4",
+      "PTGDS"
+    ],
+    "source_topics": [
+      "topic_24",
+      "topic_41",
+      "topic_43",
+      "topic_48"
+    ]
+  }
+]

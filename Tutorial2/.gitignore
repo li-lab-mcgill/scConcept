@@ -1,0 +1,7 @@
+
+# Local input locations are specific to the working server.
+Inputs/data_paths.local.json
+
+# Analysis inputs are supplied in reference_outputs.zip.
+Inputs/*
+!Inputs/data_paths.example.json

@@ -46,6 +46,7 @@ or switch to your own data by setting `USE_DEMO_DATA = False`.
 https://colab.research.google.com/github/li-lab-mcgill/scConcept/blob/main/Tutorial/tutorial_0_colab_quickstart.ipynb
 )
 
+
 ---
 
 ## 🔧 Installation
@@ -462,6 +463,7 @@ scConcept.annotation(...)
 
 ### Available tutorials
 
+- `tutorial_0_colab_quickstart.ipynb`: installation and quickstart
 -   `tutorial_1_concept_analysis.ipynb`: concept-level annotation of
     single-cell topics
 -   `tutorial_2_potency_prediction_and_perturbation.ipynb`:
@@ -469,6 +471,12 @@ scConcept.annotation(...)
     analysis
 -   `tutorial_3_hierarchical_refinement.ipynb`: hierarchical refinement
     of broad concepts into more specific sub-concepts
+-   [tutorial_4_local_model_concept_analysis.ipynb](Tutorial/tutorial_4_local_model_concept_analysis.ipynb):
+    try different local open-weight models with Ollama, generate concepts from
+    saved topic gene lists, and explore cell annotation and downstream analysis.
+    Includes model setup and download instructions, server connection/startup,
+    model selection, and saved responses. Exploratory mode records gene-validation
+    issues without blocking usable output; model output quality is not guaranteed.
 
 Together, these tutorials form a complete workflow, guiding users from
 topic extraction to concept annotation, hierarchical refinement, and
@@ -480,7 +488,59 @@ tutorials provide a more detailed and transparent view of the full
 pipeline, and are intended for users who want to better understand the
 underlying methodology and execution process.
 
-More tutorials covering additional analyses and workflows will be added in future updates.
+### Manuscript reproduction tutorials (`Tutorial2/`)
+
+[Tutorial2](Tutorial2/README.md) contains six notebooks for reproducing the
+manuscript's downstream analyses using the saved concept definitions in
+`Tutorial2/Concept/` and the corresponding reference inputs. These notebooks
+start after preprocessing and concept generation; they do not repeat topic
+training or require new LLM calls for the reference analyses.
+
+| Notebook | Analysis |
+|---|---|
+| [Figure 3: melanoma](Tutorial2/tutorial_figure3_melanoma_analysis.ipynb) | Cell annotation, perturbation, SHAP/GSEA, and TCGA survival |
+| [Figure 4: hierarchical analysis](Tutorial2/tutorial_figure4_hierarchical_analysis.ipynb) | Pancreas and lung hierarchical annotation |
+| [Figure 5: developmental potency](Tutorial2/tutorial_figure5_developmental_potency.ipynb) | Potency annotation and bidirectional perturbation |
+| [Figure 6: lung cancer](Tutorial2/tutorial_figure6_lung_cancer_analysis.ipynb) | Lung atlas, clinical associations, SCISSOR, and drug ranking |
+| [Cross-dataset transfer](Tutorial2/tutorial_cross_dataset_transfer.ipynb) | Six transfer directions and cell-composition shifts |
+| [Concept robustness](Tutorial2/tutorial_concept_robustness.ipynb) | Saved repeated runs, prompt sensitivity, and GPT/Claude agreement |
+
+Before running, extract `reference_outputs.zip` and the required dataset ZIPs
+into the repository root, following the [data bundle instructions](Tutorial2/DATA_BUNDLE.md).
+The reference-output archive restores the required `Tutorial2/Inputs/` files.
+Use the notebooks provided in this GitHub checkout; the older tutorial snapshot
+retains historical notebook locations. Large datasets, generated results,
+topic-training outputs, and checkpoints are excluded from the software upload.
+A public data download URL/DOI has not yet been added.
+
+The [baseline software environment record](Tutorial2/baseline_software_environments.md)
+lists the reported versions for the ten benchmark baseline methods; baseline
+training pipelines and checkpoints are not included.
+
+
+### What to expect from a rerun
+
+- **Recompute downstream results from fixed inputs.** Use the deposited concept
+  sets, processed datasets, and notebook settings to compare per-dataset metrics
+  with the corresponding manuscript results. Check input checksums and software
+  versions first if results differ. Embedding coordinates, plot layouts, and
+  stochastic perturbation/classifier results may vary with the environment and
+  random splits; identical plots are not required for agreement in the main metrics.
+- **Regenerate concepts with an LLM.** Exact concept names and gene sets need not
+  match, even with generation seed 1. The five-run experiments on Zeisel and
+  Pollen show variation in concept membership while downstream metrics remain
+  comparatively stable. This observation applies to the tested datasets and
+  settings; it is not a guaranteed tolerance for other models or datasets.
+- **Measure variation using the released runs.** Run the
+  [robustness notebook](Tutorial2/tutorial_concept_robustness.ipynb) to obtain
+  `Tutorial2/outputs/robustness/concept_performance.csv` (per-run ARI, NMI, AMI,
+  TC, TD, and concept counts) and `performance_summary.csv` (five-run means and
+  standard deviations by dataset and prompt setting). The notebook also reports
+  matched gene-set Jaccard overlap. Use these observed distributions to interpret
+  a fresh generation, rather than requiring exact concept recovery or treating
+  the observed range as a formal pass/fail threshold. Keep NMI and AMI distinct
+  and use the same TC background when comparing results.
+
 
 ---
 
@@ -492,6 +552,7 @@ scConcept/
 ├── Results/         # Generated concepts, annotations, and downstream outputs
 ├── ECRTM/           # Topic model implementation and training outputs
 ├── Tutorial/        # Step-by-step notebooks and example workflows
+├── Tutorial2/       # Manuscript reproduction notebooks and saved concepts
 ├── scConcept.py     # Main scConcept API
 ├── run.py           # Command-line entry point for topic extraction
 ├── requirements.txt
