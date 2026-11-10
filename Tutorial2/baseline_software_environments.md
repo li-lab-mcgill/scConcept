@@ -137,6 +137,10 @@ scE2TM was run from [the authors' GitHub repository](https://github.com/nbnbhwyy
 | igraph | 1.5.1 |
 | uwot | 0.2.3 |
 
+## Benchmark coverage and deviations
+
+CellPLM, scE2TM, and Seurat could not be run on the full non-small cell lung cancer (NSCLC) atlas (1,283,972 cells) because of memory constraints. Their results are therefore omitted from the comparison in Fig. 6C.
+
 ## Scope of this record
 
 This document reports software versions and environment relationships. Hyperparameters not explicitly specified were set to default values as reported in the original publications or corresponding codebases.
