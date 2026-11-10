@@ -576,4 +576,4 @@ MIT License.
 
 For questions or support, please open an issue on GitHub or contact:
 
-- 13247702278@163.com
+- hegang.chen@mcgill.ca
