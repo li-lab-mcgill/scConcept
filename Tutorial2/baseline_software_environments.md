@@ -109,7 +109,7 @@ Both methods used the `scetm38` environment. scETM was available as an installed
 
 ### scE2TM
 
-scE2TM was run from [the authors' GitHub repository](https://github.com/nbnbhwyy/scE2TM). No installed scE2TM package version or source commit has been recorded.
+scE2TM v1.2.3 was used in the original experiments. 
 
 | Component | Version |
 |---|---|
