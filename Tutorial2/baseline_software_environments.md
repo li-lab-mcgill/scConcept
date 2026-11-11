@@ -62,8 +62,6 @@ GenePT used the same environment as scConcept. Precomputed gene embeddings were 
 | Scanpy | 1.11.5 |
 | scikit-learn | 1.7.2 |
 
-The exact embedding filename within the Zenodo record has not yet been recorded in this document. The archive identifier identifies the source, rather than a GenePT package version.
-
 ### Cell2Sentence
 
 | Component | Version |
